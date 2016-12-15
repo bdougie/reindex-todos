@@ -65,7 +65,7 @@ You can now push `build/` directory to your favorite static page hosting.
 We recommend [Surge](https://www.surge.sh), but you can also use Github
 Pages or any kind of hosting like that.
 
-### Surge
+### Netlify
 
 With Netlify CLI you can deploy your app with just a few commands:
 
