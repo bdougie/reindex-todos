@@ -73,3 +73,5 @@ With Netlify CLI you can deploy your app with just a few commands:
 npm install -g netlify-cli
 netlify deploy
 ```
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/reindex-todos)
