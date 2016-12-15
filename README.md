@@ -65,7 +65,7 @@ You can now push `build/` directory to your favorite static page hosting.
 We recommend [Surge](https://www.surge.sh), but you can also use Github
 Pages or any kind of hosting like that.
 
-### Surge
+### Netlify
 
 With Netlify CLI you can deploy your app with just a few commands:
 
@@ -73,3 +73,5 @@ With Netlify CLI you can deploy your app with just a few commands:
 npm install -g netlify-cli
 netlify deploy
 ```
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bdougie/reindex-todos)
