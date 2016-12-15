@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --config webpack.local.config.js",
     "build": "npm run reindex && webpack --progress --config webpack.production.config.js",
-    "login": "reindex login 'https://oxidized-cerium-209.myreindex.com' 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc0FkbWluIjp0cnVlLCJpYXQiOjE0NjI4Mjg0NDZ9.ESiqn5PlJNPagQFj4OxzMC7BV0iCOPqvir0anjUX8NY'",
+    "login": "reindex login process.env.REINDEX_URL process.env.REINDEX_ID",
     "schema:fetch": "reindex schema-fetch --force",
     "reindex": "npm run login && npm run schema:fetch && reindex schema-relay ./data/schema.json"
   },
